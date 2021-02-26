@@ -1,1 +1,7 @@
-print('hello world!!!')
+def revert(text):
+	result = ""
+	for i in range(len(len)):
+		result += text[-i]
+	return result
+
+print(revert('hello world!!!'))
