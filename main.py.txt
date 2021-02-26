@@ -1,1 +1,9 @@
-print('hello world!!!')
+def my_print(text):
+	print('Hi All,')
+	print()
+	print(text)
+	print()
+	print('Thanks,')
+	print('Yuri.')
+
+my_print('hello world!!!')
