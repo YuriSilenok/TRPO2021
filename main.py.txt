@@ -2,6 +2,14 @@ def revert(text):
 	result = ""
 	for i in range(len(len)):
 		result += text[-i]
-	return result
+	return results
 
-print(revert('hello world!!!'))
+def my_print(text):
+	print('Hi All,')
+	print()
+	print(text)
+	print()
+	print('Thanks,')
+	print('Yuri.')
+
+my_print(revert('hello world!!!'))
